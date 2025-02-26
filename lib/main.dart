@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_learning/AddProductPage.dart';
+import 'package:flutter_learning/CategoryListPage.dart';
 import 'package:flutter_learning/ExpandedWidgetPractice.dart';
 import 'package:flutter_learning/ListViewPractice.dart';
 import 'package:flutter_learning/LoginPage.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const ExpandedWidgetPractice(),
+      home: const CategoryListPage(),
     );
   }
 }
